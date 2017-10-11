@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "webpack build",
+    "dev": "webpack-dev-server --config webpack.config.babel.js --devtool eval --progress --colors --content-base build"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,14 @@
   },
   "homepage": "https://github.com/ernieyang09/webpack_template_engine#readme",
   "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
     "ejs": "^2.5.7",
     "ejs-html-loader": "^3.1.0",
+    "html-loader": "^0.5.1",
+    "html-webpack-plugin": "^2.30.1",
     "webpack": "^3.6.0",
     "webpack-dev-server": "^2.9.1"
   }
