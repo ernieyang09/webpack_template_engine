@@ -1,0 +1,25 @@
+{
+  "name": "webpack_template_engine",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ernieyang09/webpack_template_engine.git"
+  },
+  "author": "Ernie Yang <https://github.com/ernieyang09>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ernieyang09/webpack_template_engine/issues"
+  },
+  "homepage": "https://github.com/ernieyang09/webpack_template_engine#readme",
+  "devDependencies": {
+    "ejs": "^2.5.7",
+    "ejs-html-loader": "^3.1.0",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  }
+}
